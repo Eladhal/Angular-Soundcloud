@@ -1,0 +1,17 @@
+.container {
+  width: 35%;
+  height: 50%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.navDiv {
+  height: 20%;
+  width: 100%;
+}
+
+.content {
+  height: 80%;
+}

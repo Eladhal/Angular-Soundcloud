@@ -1,0 +1,4 @@
+<div class="container">
+    <input type="text" class="form-control inpt" placeholder="Search" #texbox (keyup)="keyUp(texbox.value,btn)">
+    <button type="button" class="btn btn-success btn-block" (click)="btnSearchCliked(texbox,$event)" #btn>Go</button>
+</div>
